@@ -12,9 +12,8 @@ import java.sql.Date;
 @Data
 @Builder
 @NoArgsConstructor
-@Component
 @AllArgsConstructor
-public class OrderDto {
+public class Order {
 
     private Integer id;
 

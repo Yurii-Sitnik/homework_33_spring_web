@@ -1,4 +1,4 @@
-package com.example.springweb.web;
+package com.example.springweb;
 
 import com.example.springweb.config.AppRootConfig;
 import com.example.springweb.config.AppWebConfig;

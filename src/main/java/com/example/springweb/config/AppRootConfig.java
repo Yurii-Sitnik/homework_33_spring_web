@@ -1,10 +1,10 @@
-package com.example.homework_33_spring_web.config;
+package com.example.springweb.config;
 
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.example.homework_33_spring_web.root")
+@ComponentScan("com.example.springweb.root")
 public class AppRootConfig {
 }

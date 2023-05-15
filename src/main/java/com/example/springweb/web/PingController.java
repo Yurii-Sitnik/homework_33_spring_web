@@ -6,21 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
-public class MainRestController {
+@RequestMapping("/ping")
+public class PingController {
 
     @GetMapping
     // @RequestMapping(path = "/", method = RequestMethod.GET)
     public String index() {
-        return "INDEX";
+        return "OK";
     }
-
-
-    @PostMapping
-    // @RequestMapping(path = "/", method = RequestMethod.GET)
-    public String index1() {
-        return "INDEX1";
-    }
-
-
 }
